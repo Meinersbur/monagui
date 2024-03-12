@@ -1,0 +1,48 @@
+<area shape="rect" href="$classGtk_1_1Bin.html" title="A container with just one child." alt="" coords="663,487,732,513">
+<area shape="rect" href="$classGtk_1_1Box.html" title="A base class for box containers." alt="" coords="661,816,733,843">
+<area shape="rect" href="$classGtk_1_1ComboDropDown.html" title="The dropdown list of a Combo." alt="" coords="623,867,772,893">
+<area shape="rect" href="$classGtk_1_1Fixed.html" title="A container which allows you to position widgets at fixed coordinates." alt="" coords="656,917,739,944">
+<area shape="rect" href="$classGtk_1_1IconView.html" title="The IconView provides an alternative view of a list model." alt="" coords="645,968,749,995">
+<area shape="rect" href="$classGtk_1_1Layout.html" title="Infinite scrollable area containing child widgets and/or custom drawing." alt="" coords="653,1019,741,1045">
+<area shape="rect" href="$classGtk_1_1MenuShell.html" title="The abstract base class for Gtk::Menu and Gtk::MenuBar." alt="" coords="641,1069,753,1096">
+<area shape="rect" href="$classGtk_1_1Notebook.html" title="Container which shows one of its children at a time, in tabbed windows." alt="" coords="645,1120,749,1147">
+<area shape="rect" href="$classGtk_1_1Paned.html" title="This is the base class for widgets with two panes, arranged either horizontally (Gtk::HPaned)..." alt="" coords="653,1171,741,1197">
+<area shape="rect" href="$classGtk_1_1Socket.html" title="Container for widgets from other processes." alt="" coords="652,1221,743,1248">
+<area shape="rect" href="$classGtk_1_1Table.html" title="Pack widgets in regular patterns." alt="" coords="657,1272,737,1299">
+<area shape="rect" href="$classGtk_1_1TextView.html" title="Multi&#45;line text editing widget." alt="" coords="645,1323,749,1349">
+<area shape="rect" href="$classGtk_1_1Toolbar.html" title="Bars of buttons and other widgets." alt="" coords="652,1373,743,1400">
+<area shape="rect" href="$classGtk_1_1TreeView.html" title="The TreeView widget displays the model (Gtk::TreeModel) data and allows the user..." alt="" coords="645,1424,749,1451">
+<area shape="rect" href="$classGtk_1_1Widget.html" title="Abstract Widget (Base class for all widgets)." alt="" coords="328,1095,419,1121">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="175,1069,263,1096">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="12,1069,103,1096">
+<area shape="rect" href="$classAtk_1_1Implementor.html" title="Atk::Implementor" alt="" coords="159,1120,279,1147">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="5,1120,109,1147">
+<area shape="rect" href="$classGtk_1_1Alignment.html" title="A widget which controls the alignment and size of its child." alt="" coords="840,132,947,159">
+<area shape="rect" href="$classGtk_1_1Button.html" title="A widget that creates a signal when clicked on." alt="" coords="849,183,937,209">
+<area shape="rect" href="$classGtk_1_1ComboBox.html" title="A widget used to choose from a list of items." alt="" coords="836,284,951,311">
+<area shape="rect" href="$classGtk_1_1EventBox.html" title="Event capturing box." alt="" coords="840,335,947,361">
+<area shape="rect" href="$classGtk_1_1Expander.html" title="A container which can hide its child." alt="" coords="841,385,945,412">
+<area shape="rect" href="$classGtk_1_1Frame.html" title="A Gtk::Bin with a decorative frame and optional label." alt="" coords="849,436,937,463">
+<area shape="rect" href="$classGtk_1_1HandleBox.html" title="A widget for detachable window portions." alt="" coords="837,487,949,513">
+<area shape="rect" href="$classGtk_1_1Item.html" title="This class should be considered as a virtual base class." alt="" coords="856,537,931,564">
+<area shape="rect" href="$classGtk_1_1ScrolledWindow.html" title="Adds scrollbars to its child widget." alt="" coords="823,588,964,615">
+<area shape="rect" href="$classGtk_1_1ToolItem.html" title="Gtk::ToolItem" alt="" coords="844,639,943,665">
+<area shape="rect" href="$classGtk_1_1Viewport.html" title="An adapter which makes widgets scrollable." alt="" coords="844,689,943,716">
+<area shape="rect" href="$classGtk_1_1Window.html" title="Toplevel Window This represents all widgets which are physical windows controlled..." alt="" coords="845,740,941,767">
+<area shape="rect" href="$classGtk_1_1ColorButton.html" title="A button to launch a color selection dialog." alt="" coords="1028,5,1145,32">
+<area shape="rect" href="$classGtk_1_1FontButton.html" title="A button to launch a font selection dialog." alt="" coords="1029,56,1144,83">
+<area shape="rect" href="$classGtk_1_1LinkButton.html" title="Create buttons bound to a URL." alt="" coords="1031,107,1143,133">
+<area shape="rect" href="$classGtk_1_1OptionMenu.html" title="A widget used to choose from a list of valid choices." alt="" coords="1027,157,1147,184">
+<area shape="rect" href="$classGtk_1_1ScaleButton.html" title="A button which pops up a scale widget." alt="" coords="1027,208,1147,235">
+<area shape="rect" href="$classGtk_1_1ToggleButton.html" title="A Gtk::ToggleButton will remain &#39;pressed&#45;in&#39; when clicked." alt="" coords="1024,259,1149,285">
+<area shape="rect" href="$classGtk_1_1ComboBoxEntry.html" title="A text entry field with a dropdown list." alt="" coords="1015,309,1159,336">
+<area shape="rect" href="$classGtk_1_1ComboBoxText.html" title="This is a specialisation of the ComboBox which has one column of text (a simple list)..." alt="" coords="1017,360,1156,387">
+<area shape="rect" href="$classGtk_1_1AspectFrame.html" title="A frame that constrains its child to a particular aspect ratio." alt="" coords="1023,436,1151,463">
+<area shape="rect" href="$classGtk_1_1ButtonBox.html" title="Base class for Gtk::HButtonBox and Gtk::VButtonBox." alt="" coords="837,791,949,817">
+<area shape="rect" href="$classGtk_1_1HBox.html" title="Horizontal Box for laying widgets in a horizontal row." alt="" coords="852,841,935,868">
+<area shape="rect" href="$classGtk_1_1VBox.html" title="Vertical Box for laying widgets in a vertical row." alt="" coords="852,892,935,919">
+<area shape="rect" href="$classGtk_1_1Menu.html" title="A drop&#45;down menu consisting of Gtk::MenuItem objects which can be navigated and activated..." alt="" coords="852,1032,935,1059">
+<area shape="rect" href="$classGtk_1_1MenuBar.html" title="A standard menu bar which usually holds Gtk::Menu submenu items." alt="" coords="843,1083,944,1109">
+<area shape="rect" href="$classGtk_1_1HPaned.html" title="The Gtk::HPaned widget is a container widget with two children arranged horizontally..." alt="" coords="845,1159,941,1185">
+<area shape="rect" href="$classGtk_1_1VPaned.html" title="The Gtk::VPaned widget is a container widget with two children arranged horizontally..." alt="" coords="845,1209,941,1236">
+<area shape="rect" href="$classGtk_1_1ListViewText.html" title="A simple listbox which presents some lines of information in columns and lets the..." alt="" coords="832,1424,955,1451">

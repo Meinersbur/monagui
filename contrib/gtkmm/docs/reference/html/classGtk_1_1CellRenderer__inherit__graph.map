@@ -1,0 +1,9 @@
+<area shape="rect" href="$classGtk_1_1CellRendererPixbuf.html" title="Renders a pixbuf in a cell." alt="" coords="461,5,621,32">
+<area shape="rect" href="$classGtk_1_1CellRendererProgress.html" title="Renders numbers as progress bars." alt="" coords="453,56,629,83">
+<area shape="rect" href="$classGtk_1_1CellRendererText.html" title="Renders text in a cell." alt="" coords="467,107,616,133">
+<area shape="rect" href="$classGtk_1_1CellRendererToggle.html" title="Renders a toggle button in a cell." alt="" coords="460,157,623,184">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="144,81,232,108">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="5,81,96,108">
+<area shape="rect" href="$classGtk_1_1CellRendererAccel.html" title="Renders a keyboard accelerator in a cell" alt="" coords="681,56,839,83">
+<area shape="rect" href="$classGtk_1_1CellRendererCombo.html" title="Renders a combobox in a cell." alt="" coords="677,107,843,133">
+<area shape="rect" href="$classGtk_1_1CellRendererSpin.html" title="Renders a spin button in a cell." alt="" coords="685,157,835,184">

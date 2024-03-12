@@ -1,0 +1,194 @@
+ws1s;
+
+# Welcome to the Tutorial to Mona's ws1s (Weak Second-order Theory of One
+# Successor) mode. This Tutorial is meant as an introduction on how to use Mona
+# and its most basic primitives.
+#
+# Basically, Mona is a satisfiability checker. You give it a formula and Mona
+# finds interpretations for the formula's variables such that the formula
+# becomes true. Or it will tell you that no such assignment exists.
+
+
+# Example:
+# At first, Mona needs to know which variables exist. We declare three boolean
+# variables:
+var0 a,b,c;
+
+# Then, we specify the conditions that must hold for these three variables:
+a | b <=> b & c;
+
+# This formula says that (a or b) is true if, and only if (b and c) are true.
+
+# Now press "Run" in the toolbar. A window will open and show the result.
+# (Not that to see exactly this result, you need to comment out all the
+# conditions below)
+/*
+A counter-example of least length (0) is:
+a               0 
+b               1 
+c               0 
+
+a = false
+b = true
+c = false
+
+A satisfying example of least length (0) is:
+a               0 
+b               0 
+c               X 
+
+a = false
+b = false
+c = false
+*/
+# At first, it shows an example which does not satisfy the formula (counter-
+# example). In this case, it is b set to true and a and b are both false. You
+# can confirm that this assignment does not fullfil the formula above. The left
+# term is true while the right one is not.
+# Additionally, there is an example that does fulfill the formula. It is a and
+# b set to false such that both, the left and right term evaluate to false and
+# thus the condition is fulfilled. The zeros indicate that a and be must be
+# false, as interpreted by the equations below. But c shows an "X" which means
+# "Don't care". Whatever the value for c is, the condition is always satisfied.
+# In the example above, c is given an arbitrary value.
+# (Note that there can be more satisfying assignments, like a = b = c = true)
+
+
+# Mona does not only know boolean variables, but also integer and set
+# variables. These are declared by the order of the variable. var0 declares a
+# boolean variable, a seen before. var1 is an integer variable. It may contain
+# any natural number starting from zero. For instance:
+var1 n,m;
+
+# var2 declares a variables that contains a set of integers (i.e. natural
+# number including 0), such as here:
+var2 N,M;
+
+# Again, you can specify conditions that these variables must satisfy:
+n = m + 1;   # n is one more than m
+n in N;      # The set N constains n 
+m in M;      # The set M contains M
+n = 1;       # n is 1
+M sub N;     # M is a subset of M
+
+# The result:
+/*
+A satisfying example of least length (2) is:
+n               X 01
+m               X 1X
+N               X 11
+M               X 1X
+
+n = 1
+m = 0
+N = {0,1}
+M = {0}
+*/
+# In any satisfing assignment n is 1 and m will be 0. Therefore, 0 must be an
+# element of M and 1 must be element of N. Furthermore, N must contain 0
+# because it is a superset of M. N and M could contain arbitrary many other
+# elements, but Mona tries to find those with few items only.
+
+# The internal encoding is shown above the satisfying example. The first digit
+# is the value of boolean values and always "X" for integer and set variables.
+# The digits following the space encode the elements contained in the set. The
+# first digit represents whether 0 is part of the set, the second represents 1,
+# the third 2, and so on. For N it is "11" because both, 0 and 1 are in this
+# set. For M, the integer 1 can be part of the set or not, it does not change
+# the validity of the conditions. Therefore, there is an "X" at that position.
+# There is no extra internal encoding for integer variables. They are encoded
+# as sets which contain just one element -- the element it is assigned. In this
+# example n = 1 = {1}. Moreover, only the first element in the set is used, all
+# higher values are ignored. This is why there is an "X" for integer variable
+# m. The first element (integer 0) is already in the set, all other elements
+# are ignored and can have any value. Also, the example needs only consider two
+# elements (Zero and one). All other elements do not matter, i.e. have a value
+# of "X".
+
+# List of expressions supported by Mona
+
+# Boolean values
+/*
+true             # Always "1"
+false            # Always "0"
+~b               # Negation of b; ~b evaluates to true iff b evalutes to false (X evaluates to X)
+a | b            # a or b
+a & b            # y and b
+a => b           # Impliction; If a is true, then b must also be true; if a is false, the value of b doesn't matter
+a <=> b          # Equivialence; a and b must both either evaluate to true or both to false
+all0 q : Exp(q)  # Universal quantifier; Exp must be true for q=false and q=true
+ex0 q : Exp(q)   # Existential quantifier; Exp must be true for either q=false or q=true 
+*/
+
+# Integer values
+/*
+n < m; n <= m; n = m; n >= m; n > m  # Comparison operations
+n ~= m           # Unequal
+n + 1            # Successor of n (Replace 1 by any constant to go further forward)
+n - 1            # Predecessor of n (Replace 1 by any constant to go further backward)
+n + 1 % m        # Modulo-operation
+n - 1 % m        # Modulo-operation
+all1 q : Exp(q)  # Universal quantifier; Exp must be true for all q=0,1,2,....
+ex1 q : Exp(q)   # Existential quantifier; Exp must be true for at least one q=0,1,2,...
+*/
+
+
+# Set values
+/*
+{ 0, 2, 4 }      # Explicit definition of a set
+empty            # Returns empty set
+N = M, N ~= M    # Set comparision
+n in N           # Evaluates to true if N contains n
+n notin N        # Evaluates to true if N does not contain n
+max N            # Greatest number in N (0 if N is empty)
+min N            # Smallest number in N (0 if N is empty)
+N sub M          # N must be a subset of M
+N union M        # Union of boths sets
+N inter M        # Intersection; The resulting sets contains all elements that are in both sets, N and M
+N\M              # Setminus; Evaluates to a set that contains all elements of N which are not in M
+all2 Q : Exp(Q)  # Universal quantifier; Exp must be true for all possible sets Q 
+ex2 Q : Exp(Q)   # Existential quantifier; Exp must be true for at least one set Q out of the powerset of the natural numbers
+*/
+
+
+# Limitations and traps
+
+# Weak
+# Although logically, the universe of elements a set may contain are the
+# natural numbers and therefore infinite, Mona can only consider finitely many
+# of them. All nonconsidered elements are assumed to be X ("Don't care"). When
+# genarating a (counter-)set, Mona prints out up to which number elements have
+# been considered ("least length (...)"). Think of an iterative algorithm that
+# only considers the numbers 0,...,n and if it does not find an example with
+# these, it tries 0,...,n+1.
+# (Note that this is inaccurate, for instance because this algorithm would not
+# end if there is no example)
+# The result is that there is a maximal integer number in all examples and sets
+# generally do not (or cannot) care whether they contain elements of higher
+# value. This is why there is a "weak" in the theorie's name.
+# Consider the example below. It says that the set P contains all natural
+# numbers including zero. However, this requires that infinitely many digits in
+# P's string are non-X. Therefore, this is not satisfiable.
+# var2 P;
+# all1 p: p in P;
+# To explicitly state that the universe contains just finitely (but 
+# arbitrarily) many elements, use m2l-str mode.
+
+# Monadic
+# The name Mona is derived from "monadic". Usually Second-Order Logic allows
+# quantifing predicates, which is not allowed in Monadix Second-Order Logic.
+# Instead only boolean, integer and set variables are allowed after all- and
+# ex- quantifiers.
+# (For the interested: Monadic usually means that predicates may have one
+# argument only. Sets can be seen as predicates with one argument, where the
+# set P \equiv P(p) = p in P. Quantification over predicates with more than one
+# argument are not allow, i.e. ex2 P : P(x,y). )
+
+# No general addition (or multiplication)
+# Mona can only determine successors of elements, interpreted as natural
+# numbers. Additions of two variables are not possible. One of them must be a
+# constant. Otherwise, the theory would be undecidable. 
+
+# More details on the Mona language can be found in the manual available at 
+# http://www.brics.dk/mona/
+

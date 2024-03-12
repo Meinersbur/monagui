@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>MonaGUI Manual</title>
+<style type="text/css">
+.figure {
+	text-align: center;
+}
+</style>
+</head>
+<body>
+<h1>MonaGUI - An editor for MONA files</h1>
+
+<h2>Table of Contents</h2>
+
+<ul>
+<li><a href='#install'>Installation</a></li>
+<li><a href='#intro'>Introduction to MONA</a></li>
+<li><a href='#howto'>How To Start</a></li>
+<li><a href='#notes'>Notes to Developers</a></li>
+</ul>
+
+<h2 id='install'>Installation</h2>
+
+<h3>Requirements</h3>
+
+The following libraries need to be installed on the computer:
+
+<ul>
+<li>UNIX system</li>
+<li><em>GTK 2.14</em> or newer</li>
+<li><em>gtksourceview 2.10.5</em> or newer</li>
+<li><em>gtkmm 2.14.1</em> or newer</li>
+</ul>
+
+<p>
+GTK is a part of the GNOME project. gtksourceview is a dependency of gedit, the default text editor of the GNOME desktop. So if you use a recent Linux distribution with a GNOME desktop, you probably have both requirements already installed. MonaGUI does not work yet with GTK3. GTK3 is the successor of GTK2, but incompatible with it. If you have GTK3 installed already, you will also need to install GTK2. gtkmm is also used by some common software like Inkscape. Chances are high that it is also already installed on your system. If not, try to install it using your operating system's package manager.
+</p>
+
+<p>
+MONA itself does not need to be installed on the computer.
+</p>
+
+<p>
+These requirements are supported, inter alia, by
+</p>
+
+<ul>
+<li>Ubuntu 10.10 "Maverick Meerkat"</li>
+<li>Debian 6.0 "Squeeze"</li>
+<li>Red Hat Enterprise Linux 6</li>
+<li>Fedora 14</li>
+<li>SUSE Linux Enterprise Desktop 11 SP1</li>
+<li>OpenSUSE 11.4</li>
+</ul>
+
+<h3>Self-Compilation</h3>
+
+<p>
+To compile the software yourself, you need a few more things installed an your computer.
+</p>
+
+<ul>
+<li><em>GTK 2.14</em> header files</li>
+<li><em>gtkmm 2.14</em> header files</li>
+<li><em>gtksourceview 2.10.5</em> header files</li>
+<li>C/C++ compiler (only gcc has been tested)</li>
+<li><em>GNU Bison</em></li>
+<li><em>GNU Flex</em></li>
+<li><em>libxml 2.5</em> header files (for gtksourceview)</li>
+<li><em>intltool 0.40</em> or newer (for gtksourceview)</li>
+<li><em>doxygen</em> (optional for glibmm, gtkmm)</li>
+</ul>
+
+To compile and install, just run
+<pre>
+./configure
+make
+sudo make install
+</pre>
+
+in directory in which you extracted the source archive. After ./configure you may get a notification that some of the libraries are missing or too old. Some of them can be found in the contrib directory, namely <em>gtkmm</em> and its dependencies and <em>gtksourceview</em>. Install them by running
+
+<pre>
+./configure
+make
+sudo make install
+</pre>
+
+in their directories. If possible, try installing them using your operating system's package manager instead. If you install <em>gtksourceview</em> from there you will also need <em>libxml</em> and <em>intltool</em> (but otherwise not). <em>Doxygen</em> is used by <em>gtkmm</em>, but also works without, even though with some error messages.
+
+
+<h3>Debian Package</h3>
+
+For Debian and Ubuntu, there is a package available: <a href="monagui_1.0_amd64.deb">monagui_1.0_amd64.deb</a>. After downloading it, open the file with the package manager and install it. Alternatively, run
+<pre>
+sudo dpkg -i monagui_1.0_amd64.deb
+sudo apt-get install -i
+</pre>
+on your commandline. This package is for 64 bit (AMD64) systems only.
+
+
+<h2 id='intro'>Introduction to MONA</h2>
+
+MONA checks the satisfiability of predicate logic formulas. Generally, this is an <a href="http://en.wikipedia.org/wiki/Undecidable_problem">undecidable problem</a>, i.e. there is no software or computer that is able to determine the satisfiability of all possible formula. There are always formulas left which cannot be resolved. Therefore, MONA only accepts a subset of predicate logic formulas which are guaranteed to be solvable:
+
+<ol>
+<li>Variables can be boolean values, natural numbers and sets of natural numbers (but not predicates with two or more arguments)</li>
+<li>No addition, subtraction, multiplication or division of numbers allowed (except subtraction/addition of a constant number)</li>
+<li>Although there are infinitely many natural numbers, any formula can only depend on finitely many of them</li>
+</ol>
+
+MONA translates a formula in predicate logic to an automaton. The properties of this automaton correspond to properties of the formula. For instance, if there is an accepting path in the automaton, then there is an interpretation of the variables in the formula such that the formula is satisfied.
+
+There are two different types of formulas possible as explained in the next two sections.
+
+
+<h3>String Mode (One Successor)</h3>
+
+Every natural number has one successor (+1), such that we get a chain of numbers beginning at 0.
+
+Example:
+<pre>
+var2 N;
+all1 n: n notin N => n+1 in N;
+</pre>
+
+This formula sets the condition that if there is an n which is not in the set N, then at least the successor of n must be in this set. The set of all natural numbers fulfills this condition (the premise is always false). However, because it depends on more than a finite amount of numbers being in N, this is not a solution that MONA could find. In fact, for MONA it is unsatisfiable.
+
+Internally, MONA transorms such formulas to deterministic finite state machines (DFA).
+
+<h3>Tree Mode (Two Successors)</h3>
+
+<p>
+Here, every element has two instead of just one successor. These are the left and the right child. This doesn't correspond to the natural numbers anymore, but to nodes in an infinite binary tree. "0" is the root of this tree and all nodes are trees with infinitely many subnodes, too.
+</p>
+
+<!--TODO: Picture of binary tree-->
+
+Internally, MONA uses guided tree automata (GTA) to represent such formulas.
+
+<h3>More on MONA</h3>
+
+<p>
+The detailed manual for MONA and its language can be found at the <a href="http://www.brics.dk/mona/">MONA website</a>. The site also offers to download the MONA command line tool, articles on its internal workings and application of MONA. There is also a web form to try out MONA online.
+</p>
+
+<h2 id='howto'>How To Start</h2>
+
+<p>
+The best way to start is to create a new document by selecting &quot;New&quot; from the menu or pressing the leftmost button.
+</p>
+
+<p class="figure">
+<img src="newdialog.png" alt="The &quot;New&quot; dialog"/><br/>
+The &quot;New&quot; dialog
+</p>
+
+<p>
+For assistance for the first steps, select the tutorial document. Currently, only the standard string mode has a tutorial document.
+</p>
+
+<p>
+The document itself can be edited in the main window. It features syntax highlighting and code completion. Use the buttons below the toolbar to insert code that declares a new variable.
+</p>
+
+<p class="figure">
+<img src="editwin.png" alt="Main editor window"/><br/>
+The main editor window
+</p>
+
+<p>
+To trigger code completion, press Ctrl+Space on the keyboard, or the code completion button in the toolbar. A window will open that suggests snippets, keywords, operators and declared variables that make sense to be inserted at the current cursor position. Note that the document before the cursor should not have any syntax errors, otherwise there will be just a limited number of suggestions.
+</p>
+
+<p class="figure">
+<img src="codecompletion.png" alt="Code completion"/><br/>
+Code completion at work
+</p>
+
+<p>
+To import another automaton, select the import function from the menu or the toolbar. Select a file that contains an automaton. Such automata can either be generated using the MONA command line tool or in the result dialog (see <a href="#export">below</a>). MonaGUI will then open the file, look for declared variables, and insert an import statement into the document at the current cursor position.
+</p>
+
+<p>
+To run MONA over your document, select &quot;Run&quot; from the main menu or the toolbar. If there are any syntactical or semantical errors, they will be displayed in the window's bottom. If your file is correct, the computation starts. If it takes longer, a window appears that shows the current progress of the process. After that, the result window is shown.
+</p>
+
+<p class="figure">
+<img src="resultwin.png" alt="View results" /><br/>
+View results
+</p>
+
+<p>
+The result window shows the same data as the MONA command line tool would, but in separate categories. If more than one automaton has been generated, they can be selected on the left. The different tabs are explained in the following.
+</p>
+
+
+<ul>
+<li><b>Analysis</b><br/>
+	The summary of the generated automaton. Shows whether the formula is satisfiable or falsifiable.
+</li>
+<li><b>Automaton</b><br/>
+	Displays the generated automaton. Select &quot;unrestricted&quot; to remove all &quot;Don't Care&quot; states (&quot;X&quot;). Use the <a name="export">&quot;Export Automaton...&quot;</a> button to save the automaton into a file which can be imported into another MONA file.
+</li>
+<li><b>Statistics</b><br/>
+	Shows statistical data for all automata (not just the selected one) and the duration of the computation.
+</li>
+<li><b>Dump</b><br/>
+	Shows some data collected from the input file, such as the interpretation of the input formula as syntax tree, assertions, predicates and a list of symbols in the file.
+</li>
+<li><b>Other Output</b><br/>
+	Any output that the command line version shows but does not fit into any other category. This includes the operations during the computation and intermediate automata.
+</li>
+</ul>
+
+
+<h3>More Examples</h3>
+
+The MONA distribution also contains a set of examples. They are in the folder contrib/mona/Examples. The simplest are even.mona, even_with_assert.mona, even_with_pred.mona, ab1.mona, ab2.mona, plusmodulo.mona and minusmodulo.mona, which are also used in the MONA manual.
+
+
+<h2 id='notes'>Notes to Developers</h2>
+
+MonaGUI is meant to make it easier to create input files for MONA. However, it is far from being perfect. It does not support the full range of features MONA does and still lacks some usability. If you like to improve MonaGUI, you should know about some design decision and why they were made.
+
+<h4>License</h4>
+
+MonaGUI is licensed under GPLv2
+
+
+<h4>GTK+ Toolkit Framework</h4> 
+
+<h4>GTKmm</h4> 
+
+<p>
+MONA (at least its frontend) is written in C++. To enable us to directly link to the code, MonaGUI is also written in C++. Therefore gtkmm, the official C++ binding to GTK+ is used.
+</p>
+
+<h4>gtksourceview</h4>
+
+<p>
+gtksourceview is the editor component also used in gedit, the standard text editor in GNOME. It supports code completion since version 2.10. According to configure.ac, it requires GTK 2.14. Unfortunately, it calls the function gtk_style_get which first appears in GTK 2.16. To make it work with GTK 2.14, gtkmissing.c contains a dummy implementation of gtk_style_get, which returns a constant value for the three properties requested by gtksourceview.
+</p>
+
+<p>
+Moreover, the GtkBuilder document of the completion window wants version 2.16, although it also works with GTK 2.14. On a version mismatch, GtkBuilder does not create a window and gtksourceview will access a null pointer later. Because of this, the version constant has been changed to 2.14 in contrib/gtksourceview/gtksourceview/gtksourcecompletionui.h. This means the gtksourceview component from the official source won't work anymore.
+</p>
+
+
+<h4>gtksourceviewmm</h4>
+
+gtksourceviewmm is the C++ binding of the gtksourceview editor component. Unfortunately, code completion support is buggy: some objects are unreferenced although they are still needed. This bug has been fixed in gtksourceviewmm 2.91.2 (commit dabfb20230d2a97035dcea1644ac29faf0e1da66). This version requires gtkmm-3.0 and therefore also GTK 3.0, which has been released in February 2011. We cannot expect users to use that recent versions.
+
+Hence, contrib/gtksourceviewmm contains the patch backported to an older gtksourceviewmm version. This modified version is not installed but compiled directly into the MonaGUI executable since it is incompatible with any other version. For instance, in more recent versions, the namespace gtksourceview:: has been renamed to Gsv::.
+
+<h4>Boost</h4>
+
+contrib/boost contains a fraction of the boost library (namely, Boost::Chrono, Boost::Filesystem and some utility headers). This is to avoid a dependency on the complete Boost library. Additionally, Boost::Chrono is not part of Boost except with the most recent releases.
+
+
+<h4>Mona</h4>
+
+<p>
+As mentioned in the beginning, Mona does not need to be installed on the system. Instead, it is directly compiled into the executable. The reason is that Mona is not intended to be used as a library, even though it compiles and installs four of them into the system. For instance, by default it uses its own malloc implementation, dlmalloc. This alone makes it hard to use with other libaries that use the system's default malloc.
+</p>
+
+<p>
+The frontend in contrib/mona/Front has been designed as a standalone executable without the possibility to be used externally. Hence, it has been forked into src/front2, where any changes can be applied which are not overwritten if a new version of Mona would be released. Changes made there include:
+</p>
+
+<ul>
+<li>Changing calls to printf into cout streams; cout which can be redirected to an internal buffer with cout.rdbuf()</li>
+<li>Output into a stream passed as a function argument instead to cout where feasible</li>
+<li>Changing the parser generated by GNU Bison such that it allow us to grab the parser state (to know which source completion items make sense at this point)</li>
+<li>Changing calls to abort() and exit() to throwing exception which can be caught to avoid closing the whole editor</li>
+<li>Changing the different error handlers (scanner-, parser-, type errors) that log the error instead of printing it to the stream</li>
+<li>Fixing memory holes and avoid that some structures are destroyed too early</li>
+</ul>
+
+<!--
+
+/**
+   Important use cases:
+DONE:
+   - Option -w     Output whole automaton
+   - Option -w -u  Unrestrict output automata (create conventional automata)
+   - Option -d     Dump AST, symboltable, and code DAG
+   - Option -s     Print statistics
+   - Option -s -i  Print intermediate automata (implies -s)
+   - Option -t     Print elapsed time
+   - Import, Export
+   - "New Document" dialog with ws1s tutorial
+    - Make cancel button work
+
+TODO:
+    - valgrind
+    - Testing (Ubuntu 11.04/10.10/Lucid, RHEL 6, Fedora 14, Debian 6.0, SLED 11 SP1, openSuSE 11.4, gtksourceview 2.8.2, gtk+2.18.9)
+    - HTML Manual
+    - make dist
+
+WHISHFUL THINKING:
+    - Cleaning source
+    - Compiler warnings
+    - Debugging
+    - look at TODO's
+    - Internationalization
+    - Graphviz
+    - Usablility improvement
+    - Windows version
+*/
+
+
+/**
+   SuSE SLED 11 SP1: YaST 
+        Add repository http://download.opensuse.org/distribution/11.1/repo/oss/
+        1. Install Software   
+        2. Type root passord   
+        3. Install gtksourceview-devel, gtkmm2-devel                                                             
+*/
+-->
+
+
+</body>
+</html>
+
+

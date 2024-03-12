@@ -1,0 +1,6 @@
+<area shape="rect" href="$classGtk_1_1CellRendererAccel.html" title="Renders a keyboard accelerator in a cell" alt="" coords="5,304,163,331">
+<area shape="rect" href="$classGtk_1_1CellRendererCombo.html" title="Renders a combobox in a cell." alt="" coords="187,304,352,331">
+<area shape="rect" href="$classGtk_1_1CellRendererSpin.html" title="Renders a spin button in a cell." alt="" coords="376,304,525,331">
+<area shape="rect" href="$classGtk_1_1CellRenderer.html" title="CellRenderers are used by Gtk::TreeView columns to render the Gtk::TreeModel column..." alt="" coords="208,155,331,181">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="225,80,313,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="224,5,315,32">

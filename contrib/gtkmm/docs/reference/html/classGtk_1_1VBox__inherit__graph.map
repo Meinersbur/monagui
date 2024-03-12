@@ -1,0 +1,12 @@
+<area shape="rect" href="$classGtk_1_1ColorSelection.html" title="A widget used to select a color." alt="" coords="899,5,1032,32">
+<area shape="rect" href="$classGtk_1_1FileChooserWidget.html" title="File chooser widget that can be embedded in other widgets." alt="" coords="885,56,1045,83">
+<area shape="rect" href="$classGtk_1_1FontSelection.html" title="A widget for selecting fonts." alt="" coords="900,107,1031,133">
+<area shape="rect" href="$classGtk_1_1GammaCurve.html" title="A subclass of Gtk::Curve for editing gamma curves." alt="" coords="900,157,1031,184">
+<area shape="rect" href="$classGtk_1_1RecentChooserWidget.html" title="RecentChooserWidget is a widget suitable for selecting recently used files." alt="" coords="876,208,1055,235">
+<area shape="rect" href="$classGtk_1_1Box.html" title="A base class for box containers." alt="" coords="623,107,695,133">
+<area shape="rect" href="$classGtk_1_1Container.html" title="Abstract container class." alt="" coords="468,107,572,133">
+<area shape="rect" href="$classGtk_1_1Widget.html" title="Abstract Widget (Base class for all widgets)." alt="" coords="328,107,419,133">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="175,81,263,108">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="12,81,103,108">
+<area shape="rect" href="$classAtk_1_1Implementor.html" title="Atk::Implementor" alt="" coords="159,132,279,159">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="5,132,109,159">

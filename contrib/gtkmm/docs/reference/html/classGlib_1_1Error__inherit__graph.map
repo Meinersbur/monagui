@@ -1,0 +1,7 @@
+<area shape="rect" href="$classGdk_1_1PixbufError.html" title="Exception class for Gdk::Pixbuf errors." alt="" coords="131,5,248,32">
+<area shape="rect" href="$classGtk_1_1BuilderError.html" title="Exception class for Gdk::Builder errors." alt="" coords="131,56,248,83">
+<area shape="rect" href="$classGtk_1_1FileChooserError.html" title="Exception class for Gdk::FileChooser errors." alt="" coords="116,107,263,133">
+<area shape="rect" href="$classGtk_1_1IconThemeError.html" title="Exception class for Gdk::IconTheme errors." alt="" coords="119,157,260,184">
+<area shape="rect" href="$classGtk_1_1PrintError.html" title="Gtk::PrintError" alt="" coords="137,208,241,235">
+<area shape="rect" href="$classGtk_1_1RecentChooserError.html" title="Exception class for Gtk::RecentChooser errors." alt="" coords="105,259,273,285">
+<area shape="rect" href="$classGtk_1_1RecentManagerError.html" title="Exception class for Gtk::RecentManager errors." alt="" coords="105,309,273,336">

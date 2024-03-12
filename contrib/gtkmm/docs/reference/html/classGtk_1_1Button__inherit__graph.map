@@ -1,0 +1,16 @@
+<area shape="rect" href="$classGtk_1_1ColorButton.html" title="A button to launch a color selection dialog." alt="" coords="880,5,997,32">
+<area shape="rect" href="$classGtk_1_1FontButton.html" title="A button to launch a font selection dialog." alt="" coords="881,56,996,83">
+<area shape="rect" href="$classGtk_1_1LinkButton.html" title="Create buttons bound to a URL." alt="" coords="883,107,995,133">
+<area shape="rect" href="$classGtk_1_1OptionMenu.html" title="A widget used to choose from a list of valid choices." alt="" coords="879,157,999,184">
+<area shape="rect" href="$classGtk_1_1ScaleButton.html" title="A button which pops up a scale widget." alt="" coords="879,208,999,235">
+<area shape="rect" href="$classGtk_1_1ToggleButton.html" title="A Gtk::ToggleButton will remain &#39;pressed&#45;in&#39; when clicked." alt="" coords="876,259,1001,285">
+<area shape="rect" href="$classGtk_1_1Bin.html" title="A container with just one child." alt="" coords="621,132,691,159">
+<area shape="rect" href="$classGtk_1_1Container.html" title="Abstract container class." alt="" coords="468,132,572,159">
+<area shape="rect" href="$classGtk_1_1Widget.html" title="Abstract Widget (Base class for all widgets)." alt="" coords="328,132,419,159">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="175,107,263,133">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="12,107,103,133">
+<area shape="rect" href="$classAtk_1_1Implementor.html" title="Atk::Implementor" alt="" coords="159,157,279,184">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="5,157,109,184">
+<area shape="rect" href="$classGtk_1_1VolumeButton.html" title="A button which pops up a volume control." alt="" coords="1052,208,1183,235">
+<area shape="rect" href="$classGtk_1_1CheckButton.html" title="Create widgets with a discrete toggle button." alt="" coords="1055,259,1180,285">
+<area shape="rect" href="$classGtk_1_1RadioButton.html" title="A single radio button performs the same basic function as a Gtk::CheckButton, as..." alt="" coords="1233,259,1353,285">

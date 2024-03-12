@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Based on c.lang by Marco Barisione, Emanuele Aina -->
+<language id="mona" _name="Mona" version="2.0" _section="Others">
+    <metadata>
+      <property name="mimetypes">text/x-mona</property>
+      <property name="globs">*.mona</property>
+      <property name="line-comment-start">#</property>
+      <property name="block-comment-start">/*</property>
+      <property name="block-comment-end">*/</property>
+    </metadata>
+
+    <styles>
+        <style id="comment"           _name="Comment"             map-to="def:comment"/>
+        <style id="error"             _name="Error"               map-to="def:error"/>
+        <style id="string"            _name="String"              map-to="def:string"/>
+        <style id="keyword"           _name="Keyword"             map-to="def:keyword"/>
+        <style id="decimal"           _name="Decimal number"      map-to="def:decimal"/>
+        <style id="boolean"           _name="Boolean value"       map-to="def:boolean"/>
+	<style id="identifier"        _name="Identifier"          map-to="def:identifier"/>
+    </styles>
+
+    <definitions>
+
+        <context id="mona" class="no-spell-check">
+            <include>
+
+                <!-- Comments -->
+                <context id="comment" style-ref="comment" end-at-line-end="true" class="comment" class-disabled="no-spell-check">
+                    <start>#</start>
+
+                    <include>
+                      <context ref="def:in-line-comment"/>
+                    </include>
+                </context>
+
+                <context id="comment-multiline" style-ref="comment" class="comment" class-disabled="no-spell-check">
+                    <start>/\*</start>
+                    <end>\*/</end>
+                    <include>
+                        <context ref="def:in-comment"/>
+                    </include>
+                </context>
+
+                <context id="close-comment-outside-comment" style-ref="error">
+                    <match>\*/(?!\*)</match>
+                </context>
+
+                <context id="string" style-ref="string" class="string">
+                    <match>\"[^\"\n]\"</match>
+                </context>
+
+                <context id="decimal" style-ref="decimal">
+                    <match extended="true">
+                        0|[1-9][0-9]*
+                    </match>
+                </context>
+
+                <!-- Keywords -->
+                <context id="keywords" style-ref="keyword" class="keyword">
+                    <keyword>all0</keyword>
+                    <keyword>all1</keyword>
+                    <keyword>all2</keyword>
+                    <keyword>assert</keyword>
+                    <keyword>const</keyword>
+                    <keyword>defaultwhere1</keyword>
+                    <keyword>defaultwhere2</keyword>
+                    <keyword>empty</keyword>
+                    <keyword>ex0</keyword>
+                    <keyword>ex1</keyword>
+                    <keyword>ex2</keyword>
+                    <keyword>guide</keyword>
+                    <keyword>in</keyword>
+                    <keyword>inter</keyword>
+                    <keyword>let0</keyword>
+                    <keyword>let1</keyword>
+                    <keyword>let2</keyword>
+                    <keyword>macro</keyword>
+		    <keyword>max</keyword>
+                    <keyword>min</keyword>
+                    <keyword>notin</keyword>
+                    <keyword>pred</keyword>
+                    <keyword>restrict</keyword>
+                    <keyword>root</keyword>
+                    <keyword>verify</keyword>
+                    <keyword>sub</keyword>
+                    <keyword>tree</keyword>
+                    <keyword>union</keyword>
+                    <keyword>universe</keyword>
+                    <keyword>var0</keyword>
+                    <keyword>var1</keyword>
+                    <keyword>var2</keyword>
+                    <keyword>where</keyword>
+                    <keyword>include</keyword>
+                    <keyword>import</keyword>
+                    <keyword>export</keyword>
+                    <keyword>prefix</keyword>
+                    <keyword>m2l-str</keyword>
+                    <keyword>m2l-tree</keyword>
+                    <keyword>lastpos</keyword>
+                    <keyword>in_state_space</keyword>
+                    <keyword>execute</keyword>
+                    <keyword>type</keyword>
+                    <keyword>sometype</keyword>
+                    <keyword>variant</keyword>
+                    <keyword>succ</keyword>
+                    <keyword>ws1s</keyword>
+                    <keyword>ws2s</keyword>
+                    <keyword>tree_root</keyword>
+                    <keyword>const_tree</keyword>
+                    <keyword>allpos</keyword>
+                </context>
+
+                <context id="boolean" style-ref="boolean" class="boolean">
+                    <keyword>true</keyword>
+                    <keyword>false</keyword>
+                </context>
+
+		<context id="identifier" style-ref="identifier" class="identifier">
+			<match>[a-zA-Z_][0-9a-zA-Z_]*</match>		
+		</context>
+
+            </include>
+        </context>
+    </definitions>
+</language>

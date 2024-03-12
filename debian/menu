@@ -1,0 +1,3 @@
+?package(monagui):needs=X11|text|vc|wm \
+        section=Applications/Science\
+        title=MonaGUI command=/usr/bin/monagui

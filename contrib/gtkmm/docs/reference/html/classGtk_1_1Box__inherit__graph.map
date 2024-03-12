@@ -1,0 +1,19 @@
+<area shape="rect" href="$classGtk_1_1ButtonBox.html" title="Base class for Gtk::HButtonBox and Gtk::VButtonBox." alt="" coords="744,56,856,83">
+<area shape="rect" href="$classGtk_1_1HBox.html" title="Horizontal Box for laying widgets in a horizontal row." alt="" coords="759,157,841,184">
+<area shape="rect" href="$classGtk_1_1VBox.html" title="Vertical Box for laying widgets in a vertical row." alt="" coords="759,335,841,361">
+<area shape="rect" href="$classGtk_1_1Container.html" title="Abstract container class." alt="" coords="468,157,572,184">
+<area shape="rect" href="$classGtk_1_1Widget.html" title="Abstract Widget (Base class for all widgets)." alt="" coords="328,157,419,184">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="175,132,263,159">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="12,132,103,159">
+<area shape="rect" href="$classAtk_1_1Implementor.html" title="Atk::Implementor" alt="" coords="159,183,279,209">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="5,183,109,209">
+<area shape="rect" href="$classGtk_1_1HButtonBox.html" title="A container for arranging buttons horizontally." alt="" coords="935,5,1055,32">
+<area shape="rect" href="$classGtk_1_1VButtonBox.html" title="A container for arranging buttons vertically." alt="" coords="935,56,1055,83">
+<area shape="rect" href="$classGtk_1_1Combo.html" title="A text entry field with a dropdown list." alt="" coords="949,107,1040,133">
+<area shape="rect" href="$classGtk_1_1FileChooserButton.html" title="A button to launch a file chooser dialog." alt="" coords="916,157,1073,184">
+<area shape="rect" href="$classGtk_1_1Statusbar.html" title="Text status indicator This widget is used to display status information." alt="" coords="941,208,1048,235">
+<area shape="rect" href="$classGtk_1_1ColorSelection.html" title="A widget used to select a color." alt="" coords="928,259,1061,285">
+<area shape="rect" href="$classGtk_1_1FileChooserWidget.html" title="File chooser widget that can be embedded in other widgets." alt="" coords="915,309,1075,336">
+<area shape="rect" href="$classGtk_1_1FontSelection.html" title="A widget for selecting fonts." alt="" coords="929,360,1060,387">
+<area shape="rect" href="$classGtk_1_1GammaCurve.html" title="A subclass of Gtk::Curve for editing gamma curves." alt="" coords="929,411,1060,437">
+<area shape="rect" href="$classGtk_1_1RecentChooserWidget.html" title="RecentChooserWidget is a widget suitable for selecting recently used files." alt="" coords="905,461,1084,488">

@@ -1,0 +1,12 @@
+<area shape="rect" href="$classAtk_1_1Object.html" title="The base object class for the Accessibility Toolkit API." alt="" coords="175,5,263,32">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="12,5,103,32">
+<area shape="rect" href="$classAtk_1_1Component.html" title="The ATK interface provided by UI components which occupy a physical area on the screen..." alt="" coords="161,56,276,83">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="5,259,109,285">
+<area shape="rect" href="$classAtk_1_1Action.html" title="The ATK interface provided by UI components which the user can activate/interact..." alt="" coords="176,107,261,133">
+<area shape="rect" href="$classAtk_1_1EditableText.html" title="Atk::EditableText" alt="" coords="159,157,279,184">
+<area shape="rect" href="$classAtk_1_1Image.html" title="The ATK Interface implemented by components which expose image or pixmap content..." alt="" coords="176,208,261,235">
+<area shape="rect" href="$classAtk_1_1Selection.html" title="The ATK interface implemented by container objects whose Atk::Object children can..." alt="" coords="167,259,271,285">
+<area shape="rect" href="$classAtk_1_1Table.html" title="The ATK interface implemented for UI components which contain tabular or row/column..." alt="" coords="179,309,259,336">
+<area shape="rect" href="$classAtk_1_1Text.html" title="The ATK interface implemented by components with text content." alt="" coords="181,360,256,387">
+<area shape="rect" href="$classAtk_1_1Hypertext.html" title="Atk::Hypertext" alt="" coords="167,411,271,437">
+<area shape="rect" href="$classAtk_1_1Value.html" title="The ATK interface implemented by valuators and components which display or select..." alt="" coords="179,461,259,488">

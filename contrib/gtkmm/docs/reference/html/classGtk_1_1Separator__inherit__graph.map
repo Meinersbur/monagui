@@ -1,0 +1,7 @@
+<area shape="rect" href="$classGtk_1_1HSeparator.html" title="Horizontal line widget." alt="" coords="5,304,120,331">
+<area shape="rect" href="$classGtk_1_1VSeparator.html" title="Vertical line widget." alt="" coords="144,304,259,331">
+<area shape="rect" href="$classGtk_1_1Widget.html" title="Abstract Widget (Base class for all widgets)." alt="" coords="87,155,177,181">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="24,80,112,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="23,5,113,32">
+<area shape="rect" href="$classAtk_1_1Implementor.html" title="Atk::Implementor" alt="" coords="136,80,256,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="144,5,248,32">

@@ -1,0 +1,4 @@
+<area shape="rect" href="$classGtk_1_1Box__Helpers_1_1BoxList.html" title="Gtk::Box_Helpers::BoxList\&lt; Child, const Element, Glib::List_Iterator\&lt; Child \&gt; \&gt;" alt="" coords="355,5,837,32">
+<area shape="rect" href="$classGtk_1_1ComboDropDown__Helpers_1_1ComboDropDownList.html" title="Gtk::ComboDropDown_Helpers::ComboDropDownList\&lt; ComboDropDownItem, const Element, Glib::List_Cpp_Iterator\&lt;GtkListItem,ComboDropDownItem\&gt; \&gt;" alt="" coords="135,56,1057,83">
+<area shape="rect" href="$classGtk_1_1Menu__Helpers_1_1MenuList.html" title="Gtk::Menu_Helpers::MenuList\&lt; MenuItem, const Element, Glib::List_Cpp_Iterator\&lt;GtkMenuItem,MenuItem\&gt; \&gt;" alt="" coords="264,107,928,133">
+<area shape="rect" href="$classGtk_1_1Table__Helpers_1_1TableList.html" title="Gtk::Table_Helpers::TableList\&lt; Child, Widget, Glib::List_Iterator\&lt; Child \&gt; \&gt;" alt="" coords="369,157,823,184">

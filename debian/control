@@ -1,0 +1,17 @@
+Source: monagui
+Section: science
+Priority: optional
+Maintainer: Michael Kruse <monagui@meinersbur.de>
+Build-Depends: debhelper (>= 7.0.50~), libgtksourceview2.0-dev (>= 2.10.5), libgtkmm-2.4-dev (>= 2.14.1), libgtk2.0-dev (>= 2.14.0), bison (>= 2.3), flex, libxml2-dev (>= 2.5), intltool (>= 0.40), doxygen
+Standards-Version: 3.9.1
+Vcs-Git: git://meinersbur.de/monagui.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/monagui.git;a=summary
+
+Package: monagui
+Architecture: any
+Depends: libgcc1, libstdc++6, libgtkmm-2.4 (>= 2.14.0), libgtksourceview2.0-0 (>= 2.10.0)
+Description: Editor for MONA files
+ MonaGUI is an editor for files processed by MONA. It features syntax
+ highlighting, code completion and the ability to execute MONA directly in the
+ application.
+

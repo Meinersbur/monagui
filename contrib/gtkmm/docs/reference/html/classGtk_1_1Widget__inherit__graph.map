@@ -1,0 +1,48 @@
+<area shape="rect" href="$classGtk_1_1Calendar.html" title="Display a calendar and/or allow the user to select a date." alt="" coords="479,487,580,513">
+<area shape="rect" href="$classGtk_1_1CellView.html" title="A widget displaying a single row of a TreeModel." alt="" coords="480,537,579,564">
+<area shape="rect" href="$classGtk_1_1Container.html" title="Abstract container class." alt="" coords="477,588,581,615">
+<area shape="rect" href="$classGtk_1_1DrawingArea.html" title="A widget for custom user interface elements." alt="" coords="468,892,591,919">
+<area shape="rect" href="$classGtk_1_1Entry.html" title="A single line text entry field." alt="" coords="489,943,569,969">
+<area shape="rect" href="$classGtk_1_1Invisible.html" title="This widget is used internally in GTK+, and is probably not useful for application..." alt="" coords="480,993,579,1020">
+<area shape="rect" href="$classGtk_1_1Misc.html" title="A base class for widgets with alignments and padding." alt="" coords="491,1044,568,1071">
+<area shape="rect" href="$classGtk_1_1ProgressBar.html" title="A widget which indicates progress visually." alt="" coords="468,1095,591,1121">
+<area shape="rect" href="$classGtk_1_1Range.html" title="Base class for widgets which visualize an adjustment." alt="" coords="485,1145,573,1172">
+<area shape="rect" href="$classGtk_1_1Ruler.html" title="Base class for horizontal or vertical rulers." alt="" coords="489,1247,569,1273">
+<area shape="rect" href="$classGtk_1_1Separator.html" title="Separator base class." alt="" coords="476,1348,583,1375">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="175,968,263,995">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="12,968,103,995">
+<area shape="rect" href="$classAtk_1_1Implementor.html" title="Atk::Implementor" alt="" coords="159,1019,279,1045">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="5,1019,109,1045">
+<area shape="rect" href="$classGtk_1_1Bin.html" title="A container with just one child." alt="" coords="681,183,751,209">
+<area shape="rect" href="$classGtk_1_1Box.html" title="A base class for box containers." alt="" coords="680,233,752,260">
+<area shape="rect" href="$classGtk_1_1ComboDropDown.html" title="The dropdown list of a Combo." alt="" coords="641,284,791,311">
+<area shape="rect" href="$classGtk_1_1Fixed.html" title="A container which allows you to position widgets at fixed coordinates." alt="" coords="675,335,757,361">
+<area shape="rect" href="$classGtk_1_1IconView.html" title="The IconView provides an alternative view of a list model." alt="" coords="664,385,768,412">
+<area shape="rect" href="$classGtk_1_1Layout.html" title="Infinite scrollable area containing child widgets and/or custom drawing." alt="" coords="672,436,760,463">
+<area shape="rect" href="$classGtk_1_1MenuShell.html" title="The abstract base class for Gtk::Menu and Gtk::MenuBar." alt="" coords="660,487,772,513">
+<area shape="rect" href="$classGtk_1_1Notebook.html" title="Container which shows one of its children at a time, in tabbed windows." alt="" coords="664,537,768,564">
+<area shape="rect" href="$classGtk_1_1Paned.html" title="This is the base class for widgets with two panes, arranged either horizontally (Gtk::HPaned)..." alt="" coords="672,588,760,615">
+<area shape="rect" href="$classGtk_1_1Socket.html" title="Container for widgets from other processes." alt="" coords="671,639,761,665">
+<area shape="rect" href="$classGtk_1_1Table.html" title="Pack widgets in regular patterns." alt="" coords="676,689,756,716">
+<area shape="rect" href="$classGtk_1_1TextView.html" title="Multi&#45;line text editing widget." alt="" coords="664,740,768,767">
+<area shape="rect" href="$classGtk_1_1Toolbar.html" title="Bars of buttons and other widgets." alt="" coords="671,791,761,817">
+<area shape="rect" href="$classGtk_1_1TreeView.html" title="The TreeView widget displays the model (Gtk::TreeModel) data and allows the user..." alt="" coords="664,841,768,868">
+<area shape="rect" href="$classGtk_1_1Alignment.html" title="A widget which controls the alignment and size of its child." alt="" coords="844,5,951,32">
+<area shape="rect" href="$classGtk_1_1Button.html" title="A widget that creates a signal when clicked on." alt="" coords="853,56,941,83">
+<area shape="rect" href="$classGtk_1_1ComboBox.html" title="A widget used to choose from a list of items." alt="" coords="840,107,955,133">
+<area shape="rect" href="$classGtk_1_1EventBox.html" title="Event capturing box." alt="" coords="844,157,951,184">
+<area shape="rect" href="$classGtk_1_1Expander.html" title="A container which can hide its child." alt="" coords="845,208,949,235">
+<area shape="rect" href="$classGtk_1_1Frame.html" title="A Gtk::Bin with a decorative frame and optional label." alt="" coords="853,259,941,285">
+<area shape="rect" href="$classGtk_1_1HandleBox.html" title="A widget for detachable window portions." alt="" coords="841,309,953,336">
+<area shape="rect" href="$classGtk_1_1Item.html" title="This class should be considered as a virtual base class." alt="" coords="860,360,935,387">
+<area shape="rect" href="$classGtk_1_1Curve.html" title="Allows direct editing of a curve." alt="" coords="675,892,757,919">
+<area shape="rect" href="$classGtk_1_1SpinButton.html" title="numeric Entry with up/down buttons Slightly misnamed, this should be called a SpinEntry..." alt="" coords="659,943,773,969">
+<area shape="rect" href="$classGtk_1_1Arrow.html" title="Produces an arrow pointing in one of the four cardinal directions." alt="" coords="675,993,757,1020">
+<area shape="rect" href="$classGtk_1_1Image.html" title="A widget displaying an image." alt="" coords="673,1044,759,1071">
+<area shape="rect" href="$classGtk_1_1Label.html" title="A widget that displays a small to medium amount of text." alt="" coords="676,1095,756,1121">
+<area shape="rect" href="$classGtk_1_1Scale.html" title="Abstract base clase for Gtk::HScale and Gtk::VScale." alt="" coords="675,1145,757,1172">
+<area shape="rect" href="$classGtk_1_1Scrollbar.html" title="The Gtk::Scrollbar widget is an abstract base class for Gtk::HScrollbar and Gtk::VScrollbar..." alt="" coords="665,1196,767,1223">
+<area shape="rect" href="$classGtk_1_1HRuler.html" title="Horizontal Ruler." alt="" coords="672,1247,760,1273">
+<area shape="rect" href="$classGtk_1_1VRuler.html" title="Vertical Ruler." alt="" coords="672,1297,760,1324">
+<area shape="rect" href="$classGtk_1_1HSeparator.html" title="Horizontal line widget." alt="" coords="659,1348,773,1375">
+<area shape="rect" href="$classGtk_1_1VSeparator.html" title="Vertical line widget." alt="" coords="659,1399,773,1425">

@@ -1,0 +1,9 @@
+To create the installer, first build all libraries with both mingw (with
+documentation enabled, you will need doxygen and graphviz for this) and MSVC
+(both Debug and Release). 'make install' the mingw-built ones.
+
+Then, run the build-installer script. You might need to adjust some paths
+in the install-msvc-module script. I hope to generalize the script to
+always find the correct paths in the near future.
+
+Armin Burgmeier, 2008-08-10

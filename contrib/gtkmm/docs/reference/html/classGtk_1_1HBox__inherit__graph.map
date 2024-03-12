@@ -1,0 +1,10 @@
+<area shape="rect" href="$classGtk_1_1Combo.html" title="A text entry field with a dropdown list." alt="" coords="5,453,96,480">
+<area shape="rect" href="$classGtk_1_1FileChooserButton.html" title="A button to launch a file chooser dialog." alt="" coords="120,453,277,480">
+<area shape="rect" href="$classGtk_1_1Statusbar.html" title="Text status indicator This widget is used to display status information." alt="" coords="301,453,408,480">
+<area shape="rect" href="$classGtk_1_1Box.html" title="A base class for box containers." alt="" coords="163,304,235,331">
+<area shape="rect" href="$classGtk_1_1Container.html" title="Abstract container class." alt="" coords="147,229,251,256">
+<area shape="rect" href="$classGtk_1_1Widget.html" title="Abstract Widget (Base class for all widgets)." alt="" coords="153,155,244,181">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="91,80,179,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="89,5,180,32">
+<area shape="rect" href="$classAtk_1_1Implementor.html" title="Atk::Implementor" alt="" coords="203,80,323,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="211,5,315,32">

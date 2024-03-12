@@ -1,0 +1,48 @@
+<area shape="rect" href="$classGtk_1_1Alignment.html" title="A widget which controls the alignment and size of its child." alt="" coords="757,132,864,159">
+<area shape="rect" href="$classGtk_1_1Button.html" title="A widget that creates a signal when clicked on." alt="" coords="767,183,855,209">
+<area shape="rect" href="$classGtk_1_1ComboBox.html" title="A widget used to choose from a list of items." alt="" coords="753,284,868,311">
+<area shape="rect" href="$classGtk_1_1EventBox.html" title="Event capturing box." alt="" coords="757,335,864,361">
+<area shape="rect" href="$classGtk_1_1Expander.html" title="A container which can hide its child." alt="" coords="759,385,863,412">
+<area shape="rect" href="$classGtk_1_1Frame.html" title="A Gtk::Bin with a decorative frame and optional label." alt="" coords="767,436,855,463">
+<area shape="rect" href="$classGtk_1_1HandleBox.html" title="A widget for detachable window portions." alt="" coords="755,487,867,513">
+<area shape="rect" href="$classGtk_1_1Item.html" title="This class should be considered as a virtual base class." alt="" coords="773,537,848,564">
+<area shape="rect" href="$classGtk_1_1ScrolledWindow.html" title="Adds scrollbars to its child widget." alt="" coords="740,588,881,615">
+<area shape="rect" href="$classGtk_1_1ToolItem.html" title="Gtk::ToolItem" alt="" coords="761,639,860,665">
+<area shape="rect" href="$classGtk_1_1Viewport.html" title="An adapter which makes widgets scrollable." alt="" coords="761,689,860,716">
+<area shape="rect" href="$classGtk_1_1Window.html" title="Toplevel Window This represents all widgets which are physical windows controlled..." alt="" coords="763,791,859,817">
+<area shape="rect" href="$classGtk_1_1Container.html" title="Abstract container class." alt="" coords="468,461,572,488">
+<area shape="rect" href="$classGtk_1_1Widget.html" title="Abstract Widget (Base class for all widgets)." alt="" coords="328,461,419,488">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="175,436,263,463">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="12,436,103,463">
+<area shape="rect" href="$classAtk_1_1Implementor.html" title="Atk::Implementor" alt="" coords="159,487,279,513">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="5,487,109,513">
+<area shape="rect" href="$classGtk_1_1ColorButton.html" title="A button to launch a color selection dialog." alt="" coords="960,5,1077,32">
+<area shape="rect" href="$classGtk_1_1FontButton.html" title="A button to launch a font selection dialog." alt="" coords="961,56,1076,83">
+<area shape="rect" href="$classGtk_1_1LinkButton.html" title="Create buttons bound to a URL." alt="" coords="963,107,1075,133">
+<area shape="rect" href="$classGtk_1_1OptionMenu.html" title="A widget used to choose from a list of valid choices." alt="" coords="959,157,1079,184">
+<area shape="rect" href="$classGtk_1_1ScaleButton.html" title="A button which pops up a scale widget." alt="" coords="959,208,1079,235">
+<area shape="rect" href="$classGtk_1_1ToggleButton.html" title="A Gtk::ToggleButton will remain &#39;pressed&#45;in&#39; when clicked." alt="" coords="956,259,1081,285">
+<area shape="rect" href="$classGtk_1_1VolumeButton.html" title="A button which pops up a volume control." alt="" coords="1175,208,1305,235">
+<area shape="rect" href="$classGtk_1_1CheckButton.html" title="Create widgets with a discrete toggle button." alt="" coords="1177,259,1303,285">
+<area shape="rect" href="$classGtk_1_1ComboBoxEntry.html" title="A text entry field with a dropdown list." alt="" coords="947,309,1091,336">
+<area shape="rect" href="$classGtk_1_1ComboBoxText.html" title="This is a specialisation of the ComboBox which has one column of text (a simple list)..." alt="" coords="949,360,1088,387">
+<area shape="rect" href="$classGtk_1_1ComboBoxEntryText.html" title="This is a specialisation of the ComboBoxEntry which has one column of text (a simple..." alt="" coords="1155,309,1325,336">
+<area shape="rect" href="$classGtk_1_1AspectFrame.html" title="A frame that constrains its child to a particular aspect ratio." alt="" coords="955,436,1083,463">
+<area shape="rect" href="$classGtk_1_1ComboDropDownItem.html" title="An item in a ComboDropDownList." alt="" coords="931,487,1107,513">
+<area shape="rect" href="$classGtk_1_1MenuItem.html" title="Child item for menus." alt="" coords="965,537,1072,564">
+<area shape="rect" href="$classGtk_1_1CheckMenuItem.html" title="A menu item that maintains the state of a boolean value in addition to a Gtk::MenuItem&#39;s..." alt="" coords="1168,436,1312,463">
+<area shape="rect" href="$classGtk_1_1ImageMenuItem.html" title="A menu item with an icon." alt="" coords="1168,487,1312,513">
+<area shape="rect" href="$classGtk_1_1SeparatorMenuItem.html" title="A separator used to group items within a menu." alt="" coords="1159,537,1321,564">
+<area shape="rect" href="$classGtk_1_1TearoffMenuItem.html" title="A special Gtk::MenuItem which is used to tear off and reattach its menu." alt="" coords="1167,588,1313,615">
+<area shape="rect" href="$classGtk_1_1SeparatorToolItem.html" title="A toolbar item that separates groups of other toolbar items." alt="" coords="941,613,1096,640">
+<area shape="rect" href="$classGtk_1_1ToolButton.html" title="A Gtk::ToolItem subclass that displays buttons." alt="" coords="963,664,1075,691">
+<area shape="rect" href="$classGtk_1_1MenuToolButton.html" title="A Gtk::ToolItem containing a toggle button." alt="" coords="1168,639,1312,665">
+<area shape="rect" href="$classGtk_1_1ToggleToolButton.html" title="A Gtk::ToolItem containing a toggle button." alt="" coords="1165,689,1315,716">
+<area shape="rect" href="$classGtk_1_1Assistant.html" title="A widget used to guide users through multi&#45;step operations." alt="" coords="967,765,1071,792">
+<area shape="rect" href="$classGtk_1_1Dialog.html" title="Create popup windows." alt="" coords="976,816,1061,843">
+<area shape="rect" href="$classGtk_1_1Plug.html" title="Gtk::Plug" alt="" coords="981,867,1056,893">
+<area shape="rect" href="$classGtk_1_1AboutDialog.html" title="The AboutDialog offers a simple way to display information about a program like its..." alt="" coords="1180,740,1300,767">
+<area shape="rect" href="$classGtk_1_1ColorSelectionDialog.html" title="This dialog allows the user to select a color." alt="" coords="1155,791,1325,817">
+<area shape="rect" href="$classGtk_1_1FileChooserDialog.html" title="Convenient file chooser window." alt="" coords="1163,841,1317,868">
+<area shape="rect" href="$classGtk_1_1FileSelection.html" title="Prompt the user for a file or directory name." alt="" coords="1177,892,1303,919">
+<area shape="rect" href="$classGtk_1_1FontSelectionDialog.html" title="A dialog box for selecting fonts." alt="" coords="1157,943,1323,969">

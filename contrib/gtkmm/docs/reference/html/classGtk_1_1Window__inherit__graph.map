@@ -1,0 +1,20 @@
+<area shape="rect" href="$classGtk_1_1Assistant.html" title="A widget used to guide users through multi&#45;step operations." alt="" coords="884,183,988,209">
+<area shape="rect" href="$classGtk_1_1Dialog.html" title="Create popup windows." alt="" coords="893,233,979,260">
+<area shape="rect" href="$classGtk_1_1Plug.html" title="Gtk::Plug" alt="" coords="899,284,973,311">
+<area shape="rect" href="$classGtk_1_1Bin.html" title="A container with just one child." alt="" coords="621,233,691,260">
+<area shape="rect" href="$classGtk_1_1Container.html" title="Abstract container class." alt="" coords="468,233,572,260">
+<area shape="rect" href="$classGtk_1_1Widget.html" title="Abstract Widget (Base class for all widgets)." alt="" coords="328,233,419,260">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="175,208,263,235">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="12,208,103,235">
+<area shape="rect" href="$classAtk_1_1Implementor.html" title="Atk::Implementor" alt="" coords="159,259,279,285">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="5,259,109,285">
+<area shape="rect" href="$classGtk_1_1AboutDialog.html" title="The AboutDialog offers a simple way to display information about a program like its..." alt="" coords="1065,5,1185,32">
+<area shape="rect" href="$classGtk_1_1ColorSelectionDialog.html" title="This dialog allows the user to select a color." alt="" coords="1040,56,1211,83">
+<area shape="rect" href="$classGtk_1_1FileChooserDialog.html" title="Convenient file chooser window." alt="" coords="1048,107,1203,133">
+<area shape="rect" href="$classGtk_1_1FileSelection.html" title="Prompt the user for a file or directory name." alt="" coords="1063,157,1188,184">
+<area shape="rect" href="$classGtk_1_1FontSelectionDialog.html" title="A dialog box for selecting fonts." alt="" coords="1043,208,1208,235">
+<area shape="rect" href="$classGtk_1_1InputDialog.html" title="Gtk::InputDialog" alt="" coords="1068,259,1183,285">
+<area shape="rect" href="$classGtk_1_1MessageDialog.html" title="Convenient message window." alt="" coords="1056,309,1195,336">
+<area shape="rect" href="$classGtk_1_1PageSetupUnixDialog.html" title="PageSetupUnixDialog implements a page setup dialog for platforms which don&#39;t..." alt="" coords="1037,360,1213,387">
+<area shape="rect" href="$classGtk_1_1PrintUnixDialog.html" title="PrintUnixDialog implements a print dialog for platforms which don&#39;t provide a..." alt="" coords="1056,411,1195,437">
+<area shape="rect" href="$classGtk_1_1RecentChooserDialog.html" title="RecentChooserDialog is a dialog box suitable for displaying the recently used documents..." alt="" coords="1037,461,1213,488">

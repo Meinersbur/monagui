@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="2.14"/>
+  <!-- interface-requires gtksourceview 0.0 -->
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkActionGroup" id="Actions">
+    <child>
+      <object class="GtkAction" id="declLabel">
+        <property name="label" translatable="yes">Declare variable:</property>
+        <property name="short_label" translatable="yes">Declare variable:</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="saveas">
+        <property name="label">Save _As</property>
+        <property name="short_label" translatable="yes">Save _As</property>
+        <property name="stock_id">gtk-save-as</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="showcompletion">
+        <property name="label" translatable="yes">Show Completion Menu</property>
+        <property name="short_label" translatable="yes">Show Completion Menu</property>
+        <property name="stock_id">gtk-index</property>
+	<property name="tooltip">Show Completion Menu; Open a window with a list of terms that are valid at the cursor's current position</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="undo">
+        <property name="label">_Undo</property>
+        <property name="short_label" translatable="yes">_Undo</property>
+        <property name="stock_id">gtk-undo</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="new">
+        <property name="label">_New</property>
+        <property name="short_label" translatable="yes">_New</property>
+        <property name="stock_id">gtk-new</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="save">
+        <property name="label">_Save</property>
+        <property name="short_label" translatable="yes">_Save</property>
+        <property name="stock_id">gtk-save</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="runopt">
+        <property name="label" translatable="yes">Run (with _optimizations)</property>
+        <property name="short_label" translatable="yes">Run (with _optimizations)</property>
+        <property name="stock_id">gtk-media-forward</property>
+	<property name="tooltip">Run (with optimizations); Run MONA to generate the automaton and analyze it; Before the analytical part, the automaton size is reduced if possible</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="run">
+        <property name="label">_Run</property>
+        <property name="short_label" translatable="yes">_Run</property>
+        <property name="stock_id">gtk-media-play</property>
+	<property name="tooltip">Run MONA to generate the automaton and analyze it</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="redo">
+        <property name="label">_Redo</property>
+        <property name="short_label" translatable="yes">_Redo</property>
+        <property name="stock_id">gtk-redo</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="quit">
+        <property name="label">_Quit</property>
+        <property name="short_label" translatable="yes">_Quit</property>
+        <property name="stock_id">gtk-quit</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="paste">
+        <property name="label">_Paste</property>
+        <property name="short_label" translatable="yes">_Paste</property>
+        <property name="stock_id">gtk-paste</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="open">
+        <property name="label">_Open</property>
+        <property name="short_label" translatable="yes">_Open</property>
+        <property name="stock_id">gtk-open</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="insertVar2">
+        <property name="label">2nd order variable</property>
+        <property name="short_label" translatable="yes">2nd order</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="insertVar0">
+        <property name="label">Boolean variable</property>
+        <property name="short_label" translatable="yes">Boolean</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="insertVar1">
+        <property name="label">1st order variable</property>
+        <property name="short_label" translatable="yes">1st order</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="import">
+        <property name="label" translatable="yes">Import</property>
+        <property name="short_label" translatable="yes">Import</property>
+        <property name="icon_name">document-revert</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="delete">
+        <property name="label">_Delete</property>
+        <property name="short_label" translatable="yes">_Delete</property>
+        <property name="stock_id">gtk-delete</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="copy">
+        <property name="label">_Copy</property>
+        <property name="short_label" translatable="yes">_Copy</property>
+        <property name="stock_id">gtk-copy</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="cut">
+        <property name="label">_Cut</property>
+        <property name="short_label" translatable="yes">_Cut</property>
+        <property name="stock_id">gtk-cut</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="about">
+        <property name="label">_About</property>
+        <property name="short_label" translatable="yes">_About</property>
+        <property name="stock_id">gtk-about</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="FileMenu">
+        <property name="label" translatable="yes">File</property>
+        <property name="short_label" translatable="yes">File</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="EditMenu">
+        <property name="label" translatable="yes">Edit</property>
+        <property name="short_label" translatable="yes">Edit</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="MonaMenu">
+        <property name="label" translatable="yes">Mona</property>
+        <property name="short_label" translatable="yes">Mona</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkAction" id="HelpMenu">
+        <property name="label" translatable="yes">Help</property>
+        <property name="short_label" translatable="yes">Help</property>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="EditorWindow">
+    <property name="can_focus">False</property>
+    <property name="default_width">600</property>
+    <property name="default_height">400</property>
+    <child>
+      <object class="GtkVBox" id="VBox">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkVBox" id="UIContainer">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <placeholder/>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkVPaned" id="vpaned1">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <child>
+              <object class="GtkScrolledWindow" id="scrolledwindow1">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="hscrollbar_policy">automatic</property>
+                <property name="vscrollbar_policy">automatic</property>
+                <child>
+                  <object class="GtkSourceView" id="SourceView">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="left_margin">2</property>
+                    <property name="right_margin">2</property>
+                    <property name="show_line_numbers">True</property>
+                    <property name="tab_width">4</property>
+                    <property name="auto_indent">True</property>
+                    <property name="indent_on_tab">False</property>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="resize">True</property>
+                <property name="shrink">True</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkExpander" id="expander3">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="expanded">True</property>
+                <child>
+                  <object class="GtkTreeView" id="ErrorView">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="model">ErrorViewStore</property>
+                    <property name="headers_clickable">False</property>
+                    <property name="search_column">0</property>
+                    <child>
+                      <object class="GtkTreeViewColumn" id="ErrorViewTypeColumn">
+                        <property name="resizable">True</property>
+                        <property name="title">Type</property>
+                        <child>
+                          <object class="GtkCellRendererText" id="cellrenderertext1"/>
+                          <attributes>
+                            <attribute name="text">0</attribute>
+                          </attributes>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkTreeViewColumn" id="ErrorViewLineColumn">
+                        <property name="resizable">True</property>
+                        <property name="title">Line</property>
+                        <child>
+                          <object class="GtkCellRendererText" id="cellrenderertext2"/>
+                          <attributes>
+                            <attribute name="text">2</attribute>
+                          </attributes>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkTreeViewColumn" id="ErrorViewMsgColumn">
+                        <property name="resizable">True</property>
+                        <property name="title">Description</property>
+                        <property name="expand">True</property>
+                        <child>
+                          <object class="GtkCellRendererText" id="cellrenderertext3"/>
+                          <attributes>
+                            <attribute name="text">4</attribute>
+                          </attributes>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child type="label">
+                  <object class="GtkLabel" id="label3">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Errors</property>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="resize">False</property>
+                <property name="shrink">True</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkListStore" id="ErrorViewStore">
+    <columns>
+      <!-- column-name Type -->
+      <column type="gchararray"/>
+      <!-- column-name Offset -->
+      <column type="gint"/>
+      <!-- column-name Line -->
+      <column type="gint"/>
+      <!-- column-name Column -->
+      <column type="gint"/>
+      <!-- column-name Description -->
+      <column type="gchararray"/>
+      <!-- column-name id -->
+      <column type="gint"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0" translatable="yes">Info</col>
+        <col id="1">0</col>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes">Press "Run" to run Mona</col>
+        <col id="5">0</col>
+      </row>
+    </data>
+  </object>
+</interface>

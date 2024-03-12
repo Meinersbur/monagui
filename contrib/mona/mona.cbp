@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mona" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/mona" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/mona" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="BDD" />
+			<Add directory="DFA" />
+			<Add directory="Front" />
+			<Add directory="GTA" />
+			<Add directory="Mem" />
+			<Add directory="." />
+		</Compiler>
+		<Unit filename="BDD/bdd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BDD/bdd.h" />
+		<Unit filename="BDD/bdd_cache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BDD/bdd_double.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BDD/bdd_dump.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BDD/bdd_dump.h" />
+		<Unit filename="BDD/bdd_external.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BDD/bdd_external.h" />
+		<Unit filename="BDD/bdd_internal.h" />
+		<Unit filename="BDD/bdd_manager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BDD/bdd_trace.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BDD/hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BDD/hash.h" />
+		<Unit filename="DFA/analyze.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DFA/basic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DFA/dfa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DFA/dfa.h" />
+		<Unit filename="DFA/external.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DFA/hash.h" />
+		<Unit filename="DFA/makebasic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DFA/minimize.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DFA/prefix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DFA/printdfa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DFA/product.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DFA/project.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DFA/quotient.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Front/ast.cpp" />
+		<Unit filename="Front/ast.h" />
+		<Unit filename="Front/astdump.cpp" />
+		<Unit filename="Front/code.cpp" />
+		<Unit filename="Front/code.h" />
+		<Unit filename="Front/codedump.cpp" />
+		<Unit filename="Front/codesubst.cpp" />
+		<Unit filename="Front/codetable.cpp" />
+		<Unit filename="Front/codetable.h" />
+		<Unit filename="Front/deque.h" />
+		<Unit filename="Front/env.h" />
+		<Unit filename="Front/freevars.cpp" />
+		<Unit filename="Front/ident.cpp" />
+		<Unit filename="Front/ident.h" />
+		<Unit filename="Front/lib.cpp" />
+		<Unit filename="Front/lib.h" />
+		<Unit filename="Front/makeguide.cpp" />
+		<Unit filename="Front/mona.cpp" />
+		<Unit filename="Front/offsets.cpp" />
+		<Unit filename="Front/offsets.h" />
+		<Unit filename="Front/parser.cpp" />
+		<Unit filename="Front/parser.h" />
+		<Unit filename="Front/predlib.cpp" />
+		<Unit filename="Front/predlib.h" />
+		<Unit filename="Front/printline.cpp" />
+		<Unit filename="Front/printline.h" />
+		<Unit filename="Front/reduce.cpp" />
+		<Unit filename="Front/scanner.cpp" />
+		<Unit filename="Front/signature.cpp" />
+		<Unit filename="Front/signature.h" />
+		<Unit filename="Front/st_dfa.cpp" />
+		<Unit filename="Front/st_dfa.h" />
+		<Unit filename="Front/st_gta.cpp" />
+		<Unit filename="Front/st_gta.h" />
+		<Unit filename="Front/str.h" />
+		<Unit filename="Front/symboltable.cpp" />
+		<Unit filename="Front/symboltable.h" />
+		<Unit filename="Front/timer.cpp" />
+		<Unit filename="Front/timer.h" />
+		<Unit filename="Front/untyped.cpp" />
+		<Unit filename="Front/untyped.h" />
+		<Unit filename="GTA/analyze.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/analyze_acceptance.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/basic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/copy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/dyn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/dyn.h" />
+		<Unit filename="GTA/external.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/gta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/gta.h" />
+		<Unit filename="GTA/makebasic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/minimize.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/negation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/pairhash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/pairhash.h" />
+		<Unit filename="GTA/printgta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/product.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/project.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/projset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/projset.h" />
+		<Unit filename="GTA/reachable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/replace_indices.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/restrict.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/subsets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GTA/subsets.h" />
+		<Unit filename="GTA/types.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Lib/bddlib.h" />
+		<Unit filename="Lib/dfalib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Lib/dfalib.h" />
+		<Unit filename="Lib/gtalib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Lib/gtalib.h" />
+		<Unit filename="Mem/dlmalloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Mem/dlmalloc.h" />
+		<Unit filename="Mem/gnuc.h" />
+		<Unit filename="Mem/mem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Mem/mem.h" />
+		<Unit filename="config.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,28 @@
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1ValueBase.html" title="Glib::ValueBase" alt="" coords="5,390,120,414">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01bool_01_4.html" title="Glib::Glib::Value\&lt; bool \&gt;" alt="" coords="211,6,373,30">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01char_01_4.html" title="Glib::Glib::Value\&lt; char \&gt;" alt="" coords="211,54,373,78">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01double_01_4.html" title="Glib::Glib::Value\&lt; double \&gt;" alt="" coords="204,102,380,126">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01float_01_4.html" title="Glib::Glib::Value\&lt; float \&gt;" alt="" coords="211,150,373,174">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01int_01_4.html" title="Glib::Glib::Value\&lt; int \&gt;" alt="" coords="216,198,368,222">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01long_01_4.html" title="Glib::Glib::Value\&lt; long \&gt;" alt="" coords="211,246,373,270">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01long_01long_01_4.html" title="Glib::Glib::Value\&lt; long long \&gt;" alt="" coords="196,294,388,318">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01unsigned_01char_01_4.html" title="Glib::Glib::Value\&lt; unsigned char \&gt;" alt="" coords="183,342,401,366">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01unsigned_01int_01_4.html" title="Glib::Glib::Value\&lt; unsigned int \&gt;" alt="" coords="188,390,396,414">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01unsigned_01long_01_4.html" title="Glib::Glib::Value\&lt; unsigned long \&gt;" alt="" coords="183,438,401,462">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01unsigned_01long_01long_01_4.html" title="Glib::Glib::Value\&lt; unsigned long long \&gt;" alt="" coords="168,486,416,510">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01void_01_5_01_4.html" title="Glib::Glib::Value\&lt; void * \&gt;" alt="" coords="207,534,377,558">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1ValueBase__Boxed.html" title="Glib::ValueBase_Boxed" alt="" coords="213,582,371,606">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1ValueBase__Enum.html" title="Glib::ValueBase_Enum" alt="" coords="215,630,369,654">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1ValueBase__Flags.html" title="Glib::ValueBase_Flags" alt="" coords="216,678,368,702">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1ValueBase__Object.html" title="Glib::ValueBase_Object" alt="" coords="212,726,372,750">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1ValueBase__String.html" title="Glib::ValueBase_String" alt="" coords="215,822,369,846">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value.html" title="Glib::Value\&lt; T \&gt;" alt="" coords="512,534,627,558">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value__Boxed.html" title="Glib::Value_Boxed\&lt; T \&gt;" alt="" coords="489,582,649,606">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value__Enum.html" title="Glib::Value_Enum\&lt; T \&gt;" alt="" coords="491,630,648,654">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value__Flags.html" title="Glib::Value_Flags\&lt; T \&gt;" alt="" coords="492,678,647,702">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value__Pointer.html" title="Glib::Value_Pointer\&lt; T, PtrT \&gt;" alt="" coords="472,726,667,750">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value__Pointer.html" title="Glib::Value_Pointer\&lt; T, T * \&gt;" alt="" coords="476,774,663,798">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01const_01T_01_5_01_4.html" title="Glib::Glib::Value\&lt; const T * \&gt;" alt="" coords="723,726,915,750">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01T_01_5_01_4.html" title="Glib::Glib::Value\&lt; T * \&gt;" alt="" coords="741,774,896,798">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01Glib_1_1ustring_01_4.html" title="Glib::Glib::Value\&lt; Glib::ustring \&gt;" alt="" coords="465,822,673,846">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Value_3_01std_1_1string_01_4.html" title="Glib::Glib::Value\&lt; std::string \&gt;" alt="" coords="471,870,668,894">

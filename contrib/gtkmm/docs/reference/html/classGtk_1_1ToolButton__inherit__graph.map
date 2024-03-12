@@ -1,0 +1,11 @@
+<area shape="rect" href="$classGtk_1_1MenuToolButton.html" title="A Gtk::ToolItem containing a toggle button." alt="" coords="5,528,149,555">
+<area shape="rect" href="$classGtk_1_1ToggleToolButton.html" title="A Gtk::ToolItem containing a toggle button." alt="" coords="173,528,323,555">
+<area shape="rect" href="$classGtk_1_1ToolItem.html" title="Gtk::ToolItem" alt="" coords="113,379,212,405">
+<area shape="rect" href="$classGtk_1_1Bin.html" title="A container with just one child." alt="" coords="128,304,197,331">
+<area shape="rect" href="$classGtk_1_1Container.html" title="Abstract container class." alt="" coords="111,229,215,256">
+<area shape="rect" href="$classGtk_1_1Widget.html" title="Abstract Widget (Base class for all widgets)." alt="" coords="117,155,208,181">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="55,80,143,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="53,5,144,32">
+<area shape="rect" href="$classAtk_1_1Implementor.html" title="Atk::Implementor" alt="" coords="167,80,287,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="175,5,279,32">
+<area shape="rect" href="$classGtk_1_1RadioToolButton.html" title="A toolbar item that contains a radio button." alt="" coords="176,603,320,629">

@@ -1,0 +1,4 @@
+<area shape="rect" href="$classGdk_1_1Pixmap.html" title="Pixmaps are offscreen drawables." alt="" coords="5,155,101,181">
+<area shape="rect" href="$classGdk_1_1Window.html" title="A Gdk::Window is a rectangular region on the screen." alt="" coords="125,155,224,181">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="68,5,159,32">
+<area shape="rect" href="$classGdk_1_1Bitmap.html" title="Bitmaps are simply pixmaps with a depth of 1." alt="" coords="7,229,100,256">

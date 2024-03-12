@@ -1,0 +1,9 @@
+<area shape="rect" href="$classGtk_1_1HButtonBox.html" title="A container for arranging buttons horizontally." alt="" coords="5,453,125,480">
+<area shape="rect" href="$classGtk_1_1VButtonBox.html" title="A container for arranging buttons vertically." alt="" coords="149,453,269,480">
+<area shape="rect" href="$classGtk_1_1Box.html" title="A base class for box containers." alt="" coords="101,304,173,331">
+<area shape="rect" href="$classGtk_1_1Container.html" title="Abstract container class." alt="" coords="85,229,189,256">
+<area shape="rect" href="$classGtk_1_1Widget.html" title="Abstract Widget (Base class for all widgets)." alt="" coords="92,155,183,181">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="29,80,117,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="28,5,119,32">
+<area shape="rect" href="$classAtk_1_1Implementor.html" title="Atk::Implementor" alt="" coords="141,80,261,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="149,5,253,32">

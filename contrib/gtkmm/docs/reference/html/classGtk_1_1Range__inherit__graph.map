@@ -1,0 +1,11 @@
+<area shape="rect" href="$classGtk_1_1Scale.html" title="Abstract base clase for Gtk::HScale and Gtk::VScale." alt="" coords="124,304,207,331">
+<area shape="rect" href="$classGtk_1_1Scrollbar.html" title="The Gtk::Scrollbar widget is an abstract base class for Gtk::HScrollbar and Gtk::VScrollbar..." alt="" coords="239,304,340,331">
+<area shape="rect" href="$classGtk_1_1Widget.html" title="Abstract Widget (Base class for all widgets)." alt="" coords="181,155,272,181">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="119,80,207,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="117,5,208,32">
+<area shape="rect" href="$classAtk_1_1Implementor.html" title="Atk::Implementor" alt="" coords="231,80,351,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="239,5,343,32">
+<area shape="rect" href="$classGtk_1_1HScale.html" title="A horizontal slider for selecting values." alt="" coords="5,379,96,405">
+<area shape="rect" href="$classGtk_1_1VScale.html" title="A vertical slider for selecting values." alt="" coords="120,379,211,405">
+<area shape="rect" href="$classGtk_1_1HScrollbar.html" title="A horizontal scrollbar." alt="" coords="235,379,344,405">
+<area shape="rect" href="$classGtk_1_1VScrollbar.html" title="A vertical scrollbar." alt="" coords="368,379,477,405">

@@ -1,0 +1,4 @@
+<area shape="rect" href="$classGtk_1_1CellRendererText.html" title="Renders text in a cell." alt="" coords="5,229,155,256">
+<area shape="rect" href="$classGtk_1_1CellRenderer.html" title="CellRenderers are used by Gtk::TreeView columns to render the Gtk::TreeModel column..." alt="" coords="19,155,141,181">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="36,80,124,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="35,5,125,32">

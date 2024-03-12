@@ -1,0 +1,9 @@
+<area shape="rect" href="$classGtk_1_1Arrow.html" title="Produces an arrow pointing in one of the four cardinal directions." alt="" coords="5,304,88,331">
+<area shape="rect" href="$classGtk_1_1Image.html" title="A widget displaying an image." alt="" coords="112,304,197,331">
+<area shape="rect" href="$classGtk_1_1Label.html" title="A widget that displays a small to medium amount of text." alt="" coords="221,304,301,331">
+<area shape="rect" href="$classGtk_1_1Widget.html" title="Abstract Widget (Base class for all widgets)." alt="" coords="109,155,200,181">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="47,80,135,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="45,5,136,32">
+<area shape="rect" href="$classAtk_1_1Implementor.html" title="Atk::Implementor" alt="" coords="159,80,279,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="167,5,271,32">
+<area shape="rect" href="$classGtk_1_1AccelLabel.html" title="A label which displays an accelerator key on the right of the text." alt="" coords="204,379,319,405">

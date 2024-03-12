@@ -1,0 +1,50 @@
+<area shape="rect" href="glibmm_doxygen_tags$classsigc_1_1trackable.html" title="sigc::trackable" alt="" coords="5,356,112,380">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1IOChannel.html" title="Glib::IOChannel" alt="" coords="196,284,308,308">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Markup_1_1ParseContext.html" title="Glib::Markup::ParseContext" alt="" coords="161,332,343,356">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Markup_1_1Parser.html" title="Glib::Markup::Parser" alt="" coords="181,380,323,404">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1ObjectBase.html" title="Glib::ObjectBase" alt="" coords="192,428,312,452">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1StreamIOChannel.html" title="Glib::StreamIOChannel" alt="" coords="393,284,548,308">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="419,354,523,378">
+<area shape="rect" href="glibmm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="627,548,717,572">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1AppInfo.html" title="Gio::AppInfo" alt="" coords="625,234,719,258">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1AsyncResult.html" title="Gio::AsyncResult" alt="" coords="611,282,733,306">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1Drive.html" title="Gio::Drive" alt="" coords="632,330,712,354">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1File.html" title="Gio::File" alt="" coords="637,378,707,402">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1Icon.html" title="Gio::Icon" alt="" coords="635,125,709,149">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1Mount.html" title="Gio::Mount" alt="" coords="629,426,715,450">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1Seekable.html" title="Gio::Seekable" alt="" coords="824,1040,928,1064">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1Volume.html" title="Gio::Volume" alt="" coords="627,474,717,498">
+<area shape="rect" href="$classPango_1_1CairoFontMap.html" title="A Pango::CairoFontMap represents the set of fonts available for a particular rendering..." alt="" coords="599,186,745,210">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1DesktopAppInfo.html" title="Gio::DesktopAppInfo" alt="" coords="805,173,947,197">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1LoadableIcon.html" title="Gio::LoadableIcon" alt="" coords="813,77,939,101">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1ThemedIcon.html" title="Gio::ThemedIcon" alt="" coords="816,125,936,149">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1FileIcon.html" title="Gio::FileIcon" alt="" coords="1041,306,1137,330">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1FileInputStream.html" title="Gio::FileInputStream" alt="" coords="1019,1016,1160,1040">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1FileOutputStream.html" title="Gio::FileOutputStream" alt="" coords="1013,197,1165,221">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1MemoryInputStream.html" title="Gio::MemoryInputStream" alt="" coords="1005,1064,1173,1088">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1AppLaunchContext.html" title="Gio::AppLaunchContext" alt="" coords="796,608,956,632">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1Cancellable.html" title="Gio::Cancellable" alt="" coords="819,656,933,680">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1FileEnumerator.html" title="Gio::FileEnumerator" alt="" coords="808,704,944,728">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1FileInfo.html" title="Gio::FileInfo" alt="" coords="831,752,921,776">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1FileMonitor.html" title="Gio::FileMonitor" alt="" coords="820,800,932,824">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1FilenameCompleter.html" title="Gio::FilenameCompleter" alt="" coords="796,848,956,872">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1InputStream.html" title="Gio::InputStream" alt="" coords="816,1088,936,1112">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1MountOperation.html" title="Gio::MountOperation" alt="" coords="805,896,947,920">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1OutputStream.html" title="Gio::OutputStream" alt="" coords="811,29,941,53">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1VolumeMonitor.html" title="Gio::VolumeMonitor" alt="" coords="808,944,944,968">
+<area shape="rect" href="$classPango_1_1Context.html" title="A Pango::Context stores global information used to control the itemization process..." alt="" coords="820,992,932,1016">
+<area shape="rect" href="$classPango_1_1Font.html" title="A Pango::Font is used to represent a font in a rendering&#45;system&#45;independent matter..." alt="" coords="831,221,921,245">
+<area shape="rect" href="$classPango_1_1FontFace.html" title="A Pango::FontFace is used to represent a group of fonts with the same family, slant..." alt="" coords="816,269,936,293">
+<area shape="rect" href="$classPango_1_1FontFamily.html" title="A Pango::FontFamily is used to represent a family of related font faces." alt="" coords="811,317,941,341">
+<area shape="rect" href="$classPango_1_1FontMap.html" title="A Pango::FontMap represents the set of fonts available for a particular rendering..." alt="" coords="817,416,935,440">
+<area shape="rect" href="$classPango_1_1Fontset.html" title="A Pango::Fontset is used to represent a set of fonts." alt="" coords="821,464,931,488">
+<area shape="rect" href="$classPango_1_1Layout.html" title="A Pango::Layout represents an entire paragraph of text." alt="" coords="824,512,928,536">
+<area shape="rect" href="$classPango_1_1Renderer.html" title="Pango::Renderer is a base class that contains the necessary logic for rendering a..." alt="" coords="817,560,935,584">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1FilterInputStream.html" title="Gio::FilterInputStream" alt="" coords="1015,1160,1164,1184">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1UnixInputStream.html" title="Gio::UnixInputStream" alt="" coords="1016,1112,1163,1136">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1BufferedInputStream.html" title="Gio::BufferedInputStream" alt="" coords="1228,1160,1396,1184">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1DataInputStream.html" title="Gio::DataInputStream" alt="" coords="1456,1160,1603,1184">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1FilterOutputStream.html" title="Gio::FilterOutputStream" alt="" coords="1009,53,1169,77">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1UnixOutputStream.html" title="Gio::UnixOutputStream" alt="" coords="1012,5,1167,29">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1BufferedOutputStream.html" title="Gio::BufferedOutputStream" alt="" coords="1223,53,1401,77">
+<area shape="rect" href="glibmm_doxygen_tags$classGio_1_1DataOutputStream.html" title="Gio::DataOutputStream" alt="" coords="1451,53,1608,77">

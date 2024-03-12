@@ -1,0 +1,9 @@
+<area shape="rect" href="$classGtk_1_1Menu.html" title="A drop&#45;down menu consisting of Gtk::MenuItem objects which can be navigated and activated..." alt="" coords="49,379,132,405">
+<area shape="rect" href="$classGtk_1_1MenuBar.html" title="A standard menu bar which usually holds Gtk::Menu submenu items." alt="" coords="156,379,257,405">
+<area shape="rect" href="$classGtk_1_1Container.html" title="Abstract container class." alt="" coords="96,229,200,256">
+<area shape="rect" href="$classGtk_1_1Widget.html" title="Abstract Widget (Base class for all widgets)." alt="" coords="103,155,193,181">
+<area shape="rect" href="$classGtk_1_1Object.html" title="Gtk::Object is the base class for all widgets, and for a few non&#45;widget objects such..." alt="" coords="40,80,128,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Object.html" title="Glib::Object" alt="" coords="39,5,129,32">
+<area shape="rect" href="$classAtk_1_1Implementor.html" title="Atk::Implementor" alt="" coords="152,80,272,107">
+<area shape="rect" href="pangomm_doxygen_tags$classGlib_1_1Interface.html" title="Glib::Interface" alt="" coords="160,5,264,32">
+<area shape="rect" href="$classGtk_1_1RecentChooserMenu.html" title="RecentChooserMenu is a widget suitable for displaying recently used files inside..." alt="" coords="5,453,176,480">
